@@ -206,7 +206,7 @@ def process_csv_file(csv_path, arduino_port, output_path='predictions_results.cs
 
 if __name__ == "__main__":
     # Configuration
-    CSV_FILE ="path/to/your/sensor_data.csv"  
+    CSV_FILE ="path/to/sensor_data.csv"  
     ARDUINO_PORT = "/dev/cu.usbmodem14201"  
     OUTPUT_FILE = "predictions_results.csv"
     
